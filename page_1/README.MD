@@ -1,0 +1,1 @@
+link: [text](https://www.figma.com/file/optn8Xhh1aMITbClJmKsVE/Figma-basics?type=design&node-id=1669-162202&mode=design&t=4AhKeeQEtUFnYB91-0)
