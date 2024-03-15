@@ -1,0 +1,1 @@
+link: https://www.figma.com/file/al7VOGPxLir2BvWz47VF8k/%E2%98%85MTH---%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%EF%BC%88OMI%E7%A4%BE%E5%85%B1%E6%9C%89%EF%BC%89_Copy_20240222?type=design&node-id=0-1&mode=design&t=ktBWccAZWX9yug22-0
