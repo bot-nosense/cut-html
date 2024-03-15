@@ -1,0 +1,170 @@
+:root{
+    --main-color: #426B1F;
+    --text-color: #000000;
+    --background-color: #E5E5E5;
+    --border-color: #E6E6E6;
+    --card-background-color: #FAFAF5;
+    --margin-left: 100px;
+    --margin-right: 100px;
+    --basic-text-size: 16px;
+    --big-text-size: 20px;
+    --border-radius: 20px;
+}
+
+body{
+    /* background-color: #000000; */
+}
+
+.container{
+    max-width: 1440px;
+    height: 900px;
+    background-color: var(--background-color);
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    max-height: 112px;
+}
+
+.navigator .logo{
+    margin-left: var(--margin-left);
+    font-size: 32px;
+}
+
+.navigator .menu{
+    display: flex;
+    justify-content: space-around;
+    margin-right: var(--margin-right);
+}
+
+.menu .menu-item{
+    list-style-type: none;
+    margin: 10px;
+    font-size: var(--basic-text-size);
+}
+
+.page-heading{
+    min-height: 149px;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+
+.content-heading{
+    display: flex;
+}
+
+#basket{
+    font-size: 64px;
+}
+
+#basket, #item3 {
+    margin: 0; 
+}
+
+.divider{
+    color: #E6E6E6;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#payment{
+    min-width: 347px;
+    min-height: 48px;
+    background-color: #426B1F;
+    border-radius: var(--border-radius);
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.page-content .card-list .card {
+    width: 821px;
+    height: 159px;
+    border-radius: var(--border-radius);
+    background-color: var(--card-background-color);
+    margin-left: var(--margin-left);
+    border-color: var(--border-color);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary{
+    margin-right: var(--margin-right);
+    border-radius: var(--border-radius);
+    max-height: 318px;
+    max-width: 395px;
+    background-color: var(--card-background-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px 100%;
+    border-color: var(--border-color);
+}
+
+
+
+.summary .bill  {
+    font-size: var(--basic-text-size);
+    border-color: var(--border-color);
+}
+
+.bill .total {
+    font-weight: bold;
+}
+
+.bill .order-item  {
+    font-size: var(--basic-text-size);
+    padding: 10px;
+}
+
+
+#item3{
+    font-size: var(--big-text-size);
+}
+
+.page-content{
+    display: flex;
+    justify-content:  space-between;
+}
+
+img{
+    height: 160px;
+    width: 160px;
+}
+
+
+
+.number-input{
+    border-radius: var(--border-radius);
+    width: 128px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.card .card-detail{
+    display: flex;
+}
+
+.card .total-detail{
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* dùng chung */
+.card-title { 
+    color: #000000;
+    font-weight: bold;
+    font-size: var(--big-text-size);
+    padding-left: 10px;
+}
+
+.page-content .card-list .card .card-detail .basic-detail .card-money {
+    font-weight: bold;
+    color: #426B1F;
+    padding-left: 10px;
+}
