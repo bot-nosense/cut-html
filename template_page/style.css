@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr; /* Một cột duy nhất */
+    grid-template-rows: auto 1fr auto; /* Header, Main Content và Footer có chiều cao tự động */
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "footer";
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav {
+    grid-area: sidebar;
+    background-color: #666;
+    color: white;
+    padding: 10px;
+  }
+  
+  main {
+    grid-area: main;
+    padding: 20px;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
