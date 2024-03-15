@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 
 .container{
@@ -27,18 +27,18 @@ body{
     max-height: 112px;
 }
 
-.logo{
+.navigator .logo{
     margin-left: var(--margin-left);
     font-size: 32px;
 }
 
-.menu{
+.navigator .menu{
     display: flex;
     justify-content: space-around;
     margin-right: var(--margin-right);
 }
 
-.menu-item{
+.menu .menu-item{
     list-style-type: none;
     margin: 10px;
     font-size: var(--basic-text-size);
@@ -107,7 +107,7 @@ body{
 
 
 
-.bill  {
+.summary .bill  {
     font-size: var(--basic-text-size);
     border-color: var(--border-color);
 }
@@ -146,20 +146,17 @@ img{
     margin-left: 10px;
 }
 
-
-
-/* page-content */
-
-.page-content .card-list .card .card-detail{
+.card .card-detail{
     display: flex;
 }
 
-.page-content .card-list .card .total-detail{
+.card .total-detail{
     padding: 10px;
     font-weight: bold;
 }
 
-.page-content .card-list .card .card-detail .basic-detail .card-title { 
+/* dùng chung */
+.card-title { 
     color: #000000;
     font-weight: bold;
     font-size: var(--big-text-size);
