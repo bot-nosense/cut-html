@@ -1,17 +1,85 @@
 /* page_2\style.css */
 
-.box-container {
-    width: 200px;
-    height: 200px;
-    background-color:blueviolet;
-    display: flex;
-    flex-direction: column;
+:root {
+    --triangle-width: 400px;
+    /* Độ rộng của tam giác */
+    --triangle-height: 400px;
+    /* Độ cao của tam giác */
 }
 
-.box-item {
-    flex: 1;
-    border: 1px solid black;
-    color: #fff;
-    text-align: center;
+/* 
+    tam giác đầu tiên luôn có boeeder top = 0 
+    hình thang cuối cùng luôn có border-bottom = var width
+
+
+*/
+
+.triangle {
+    width: var(--width);
+    height: var(--width);
+    position: relative;
+    overflow: hidden;
 }
 
+.triangle-part {
+    width: 100%;
+    height: calc(var(--width) / 3);
+    position: absolute;
+    overflow: hidden;
+    background-color: aquamarine;
+    -webkit-clip-path: polygon(0% 100%, 20% 0%, 40% 100%);
+    clip-path: polygon(0% 100%, 20% 0%, 40% 100%);
+}
+
+/* .triangle-part::before,
+  .triangle-part::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px; 
+    background-color: #fff; 
+    transform: translateY(-50%);
+  }
+
+  .triangle-part::before {
+    left: 0;
+  }
+
+  .triangle-part::after {
+    right: 0;
+  } */
+
+/* .triangle-part:nth-child(1) {
+    top: 0%;
+    background-color: #3498db; 
+    -webkit-clip-path: polygon(0% 100%, 20% 0%, 40% 100%);
+    clip-path: polygon(0% 100%, 20% 0%, 40% 100%);
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px; 
+    background-color: #fff; 
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+
+  .triangle-part:nth-child(2) {
+    top: 0%;
+    background-color: #3498db; 
+    -webkit-clip-path: polygon(0% 100%, 20% 0%, 40% 100%);
+    clip-path: polygon(0% 100%, 20% 0%, 40% 100%);
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px; 
+    background-color: #fff; 
+    transform: translateY(-50%);
+    right: 0;
+  } */
+
+
+/*  */
