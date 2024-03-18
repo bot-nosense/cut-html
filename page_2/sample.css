@@ -1,0 +1,19 @@
+/* page_2\style.css */
+
+.triangle {
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    width: 100vmin;
+    aspect-ratio: 2 / 1;   /* chiều rộng gấp đôi chiều cao */
+    background-color: #fff;  
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1vmin;
+  }
+  
+.triangle > * {
+    background-color: rgb(14, 179, 55); 
+    text-align: center;
+}
+  
+  
+  
