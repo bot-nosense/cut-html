@@ -23,8 +23,15 @@
 .center .child {
   background-color: rgb(14, 179, 55); 
   flex: 1;
-  margin-top: 1px;
+  /* margin-top: 1px; */
+  display: flex;
+}
+
+.center .child p {
   color: #fff;
+  margin-left: 30%;
+  position: absolute;
+  align-self: center;
 }
 
 .triangle .left,
